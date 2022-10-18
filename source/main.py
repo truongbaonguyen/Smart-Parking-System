@@ -37,6 +37,5 @@ def initialize():
 
 if __name__ == '__main__':
     print("Begin")
-    camera.get_plate()
-    #initialize()
+    initialize()
 

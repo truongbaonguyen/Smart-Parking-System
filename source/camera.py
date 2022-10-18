@@ -68,7 +68,7 @@ def get_plate():
             break
         ret, img = vid.read()
         if ret:
-            img = img[260:460, 540:740]
+            #img = img[260:460, 540:740]     #Danh cho Camera dat o xa
             originalImage = img.copy()
             
             imgGray = cv2.cvtColor(originalImage,cv2.COLOR_BGR2GRAY)
